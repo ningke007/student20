@@ -1,0 +1,19 @@
+server:
+  port: 8989
+  context-path: /student2.0
+  jsp-servlet:
+    init-parameters:
+      development: true #开启jsp热部署
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot
+    username: root
+    password: root
+  mvc:
+    view:   #配置视图解析器
+      suffix: .jsp
+      prefix: /
+mybatis:
+  type-aliases-package:
