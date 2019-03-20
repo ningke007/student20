@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan("com/baizhi/dao")//扫描Dao层
 public class SpringBootStart {
     //fjsadkfljlj
+    //哈哈aaa
     public static void main(String[] args) {
         SpringApplication.run(SpringBootStart.class,args);
     }
